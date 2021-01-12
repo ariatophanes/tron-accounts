@@ -1,0 +1,10 @@
+{
+  "send-tokens": {
+    "type": "object",
+    "properties": {
+      "tokenID": { "type": "number" },
+      "to": { "type": "string"},
+      "amount": { "type": "number"}
+    },
+    "required": [ "tokenID", "to", "amount"]
+  }

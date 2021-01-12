@@ -1,0 +1,19 @@
+{
+  "create-token": {
+    "type": "object",
+    "properties": {
+      "name": { "type": "string" },
+      "abbreviation": { "type": "string"},
+      "description": { "type": "string"},
+      "url": { "type": "string"},
+      "total_supply": { "type": "number"},
+      "frozen_amount": { "type": "number"},
+      "frozen_duration": { "type": "number"},
+      "free_bandwidth": { "type": "number"},
+      "free_bandwidth_limit": { "type": "number"},
+      "sale_period": { "type": "string"},
+      "precision": { "type": "number"},
+      "vote_score": { "type": "number"}
+    },
+    "required": [ "name", "abbreviation", "description","url","totalSupply","frozenAmount","frozenDuration","freeBandwidth","freeBandwidthLimit","sale_period","precision"]
+  }

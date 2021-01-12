@@ -1,0 +1,9 @@
+{
+  "send-trx": {
+    "type": "object",
+    "properties": {
+      "to": { "type": "string"},
+      "amount": { "type": "number"}
+    },
+    "required": ["to", "amount"]
+  }
